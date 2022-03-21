@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EJS Page</title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <%- include ('partials/header.ejs'); %>
+        <main>
+            <img src="/img/ejs.png" alt="EJS logo">
+            <h1>This page was made using EJS</h1>
+            <p>I still don't fully understand how these template languages ​​can be useful compared to Nunjucks and Liquid.</p>
+            <p>Maybe for one-page websites, but for multi-page sites you need to write manually a lot of stuff.</p>
+            <p>Especially when you try to apply templates to your actual content.</p>
+        </main>
+        <%- include ('partials/footer.html'); %>
+    </body>
+</html>
